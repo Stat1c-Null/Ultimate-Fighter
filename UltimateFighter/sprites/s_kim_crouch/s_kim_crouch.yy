@@ -50,7 +50,7 @@
     "spriteId": {"name":"s_kim_crouch","path":"sprites/s_kim_crouch/s_kim_crouch.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 5.0,
+    "playbackSpeed": 7.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -91,9 +91,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b17fd6fd-7753-479d-8f6c-7f93454850a7","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Kim",
-    "path": "folders/Sprites/Kim.yy",
+    "name": "Kim Basic Moves",
+    "path": "folders/Sprites/Kim/Kim Basic Moves.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_kim_crouch",

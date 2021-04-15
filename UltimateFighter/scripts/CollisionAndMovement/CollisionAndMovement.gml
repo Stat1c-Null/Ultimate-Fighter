@@ -11,7 +11,8 @@ function CollisionAndMovement(){
 	}
 	
 	//Vertical Collision
-	if place_meeting(x, y+vspd, o_solid) {
+	landed = place_meeting(x, y+sign(vspd), o_solid)//Check if player is on the ground
+	if landed  {
 		while !place_meeting(x, y+sign(vspd), o_solid) {//Sign allows us to check for both left and right
 			y += sign(vspd)
 		}

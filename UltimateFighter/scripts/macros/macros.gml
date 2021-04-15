@@ -19,5 +19,13 @@ function macros(){
 	
 	#region States --The possible states of the player 
 	#macro STATE_FREE 0 //Free to move or do whatever
+	#macro STATE_ATTACK 1 //Attacking state 
+	#endregion
+	
+	#region Attack State --Fight
+	#macro ATK_P1 0 //Punch Light Attack 1
+	#macro ATK_P2 1 //Punch Light Attack 2
+	#macro ATK_K1 2 // Kick Heavy Attack 1
+	#macro ATK_K2 3 // Kick Heavy Attack 2
 	#endregion
 }

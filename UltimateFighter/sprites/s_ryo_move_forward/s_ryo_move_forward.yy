@@ -87,9 +87,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b0c5077c-b7aa-4d77-a3ee-3c0158b46e9b","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Ryo",
-    "path": "folders/Sprites/Ryo.yy",
+    "name": "Ryo Basic Moves",
+    "path": "folders/Sprites/Ryo/Ryo Basic Moves.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_ryo_move_forward",
