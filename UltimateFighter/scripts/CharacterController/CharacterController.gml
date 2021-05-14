@@ -17,10 +17,29 @@ function CharacterController(){
 				} 
 				
 				//crouch
+				crouch = kc(down)
 				
 			} else {//in the air
 				
 			}
+			
+			//Attacks
+			if kcp(p1) {
+				SetAttack(ATK_P1); break
+			}else if kcp(p2) {
+				SetAttack(ATK_P2); break
+			}else if kcp(k1) {
+				SetAttack(ATK_K1); break
+			}else if kcp(k2) {
+				SetAttack(ATK_K2); break
+			}
+		break
+		case STATE_ATTACK:
+			if landed //If we are on the ground
+				hspd = 0
+			//Get back to free state
+			if AnimationEnd()
+				state = STATE_FREE
 		break
 	}
 	//Update enemy direction
